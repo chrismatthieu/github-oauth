@@ -1,2 +1,2 @@
-require 'githubchat'
+require 'githubchat.rb'
 run Sinatra::Application
