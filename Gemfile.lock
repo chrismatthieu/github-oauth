@@ -70,4 +70,5 @@ PLATFORMS
 
 DEPENDENCIES
   omniauth
+  rest-client
   sinatra
