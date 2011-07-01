@@ -6,8 +6,8 @@ require 'json'
   
 use Rack::Session::Cookie
 use OmniAuth::Builder do
-  # provider :github, '74a1475d7f5564343099', 'f8310520720f56e931f086d519c435d800c6997a' #github chat
-  provider :github, '25abed0273f2d33bd9a5', '5e1f21c1830c3c1a2816df2b1a1d798779763ce8' #testing
+  provider :github, '74a1475d7f5564343099', 'f8310520720f56e931f086d519c435d800c6997a' #github chat
+  # provider :github, '25abed0273f2d33bd9a5', '5e1f21c1830c3c1a2816df2b1a1d798779763ce8' #testing
 end
 
 get '/' do
