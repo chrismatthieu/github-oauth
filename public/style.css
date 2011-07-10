@@ -1,0 +1,85 @@
+#mainHTML {
+    overflow:hidden;
+    margin:0;
+}
+#MWHBody {
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    border:0;
+    overflow: hidden;
+}
+#mainChatDiv {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    border:0;
+}
+#mainTabDiv {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    border:0;
+}
+#mainWebFrame {
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    border:0;
+    z-index: 0;
+}
+#MWHChat {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    border:0;
+    z-index:1100;
+    visibility: hidden;
+    overflow: hidden;
+    background-color: transparent;
+    background-image: url("http://maywehelp.com/esbn/back.jpg");
+}
+#mainChatFrame{
+    position:absolute;
+    right: 25px;
+    bottom: 0px;
+    width: 250px;
+    height: 250px;
+    z-index: 1200;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+    border:1;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    background-color: transparent;
+}
+#mainTabFrame{
+    position:absolute;
+    width: 20px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1200;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+    border:0;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    background-color: transparent;
+}
